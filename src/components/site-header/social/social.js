@@ -1,8 +1,8 @@
-import React from 'react'
-import IconFacebook from './facebook.svg'
-import IconTwitter from './twitter.svg'
+import React          from 'react'
+import IconFacebook   from './facebook.svg'
+import IconTwitter    from './twitter.svg'
 import IconGooglePlus from './google +.svg'
-import IconInstagram from './instegram.svg'
+import IconInstagram  from './instegram.svg'
 
 const Social = (props) =>
 {

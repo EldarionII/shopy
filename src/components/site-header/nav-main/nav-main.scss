@@ -1,0 +1,25 @@
+.nav-main {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-main__item {
+  
+  :not(:last-child) {
+    margin-right: 12px;
+  }
+  
+  a {
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: HarmoniaSansProCyr-Regular;
+    font-size: 16px;
+  }
+  
+  a.active {
+    color: #ff5912;
+  }
+}

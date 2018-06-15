@@ -1,7 +1,10 @@
 @import "normolize.css";
-@import "fonts";
+@import "fonts.scss";
 @import "components/site-header/site-header.scss";
-@import "components/social/social.scss";
+@import "components/site-header/social/social.scss";
+@import "components/site-header/nav-main/nav-main.scss";
+@import "components/site-header/nav-extra/nav-extra.scss";
+@import "components/site-header/contacts/contacts.scss";
 @import "components/site-logo/site-logo.scss";
 
 .centerer
